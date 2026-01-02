@@ -14,6 +14,8 @@ Transformers are widely used in tasks like translation, text
 summarization, question answering, and language modeling."
 
 
+
+
 **PROMPT 2 - RESEARCH UNDERSTANDING**
 Read the following research description and provide a structured summary
 in 3–5 sentences. Include key methods, results, and applications:
@@ -27,6 +29,8 @@ the model to capture long-range dependencies and global context better
 than CNNs. Experiments show that with sufficient data, ViTs achieve
 higher accuracy and are more robust to occlusion and image
 transformations."
+
+
 
 
 **PROMPT 3 - CODE EXPLANATION (BEGINNER FRIENDLY)**
@@ -43,6 +47,8 @@ def is_prime(n):
     return True
 
 
+
+
 **PROMPT 4 - CODE REFACTORING**
 Refactor the following Python function to improve readability,
 efficiency, and Python best practices. Explain the changes you made.
@@ -57,6 +63,9 @@ def fibonacci(n):
         seq.append(seq[-1] + seq[-2])
     return seq
 
+
+
+
 **PROMPT 5 - UNIT TEST GENERATION**
 Write Python unit tests for the function below using the unittest
 framework. Include at least 3 test cases covering normal, edge, and
@@ -66,6 +75,8 @@ def factorial(n):
     return 1 if n==0 else n*factorial(n-1)
 
 
+
+
 **PROMPT 6 - TEXT TO JSON CONVERSION**
 Convert the following text into a structured JSON object with fields:
 name, age, occupation, location. Ensure the JSON is properly formatted.
@@ -73,6 +84,8 @@ name, age, occupation, location. Ensure the JSON is properly formatted.
 Text:
 "John Doe is a 34-year-old software engineer living in San Francisco,
 California. He enjoys hiking and photography in his free time."
+
+
 
 
 **PROMPT 7 - SOFTWARE TEST CASE GENERATION**
@@ -86,9 +99,13 @@ are correct, the user is redirected to the dashboard. If the
 credentials are incorrect, an error message is displayed."
 
 
+
+
 **Prompt 8 - Summarising json from paragraph**
 Read the paragraph below and produce a JSON object summarizing the main points, including: topic, key_concepts, and potential_applications.
  "Neural networks are a set of algorithms modeled loosely after the human brain, designed to recognize patterns. Theyinterpret sensory data through a kind of machine perception, labeling, or clustering raw input. Deep learning, a subset of machine learning, uses multi-layered neural networks to learn complex patterns in large datasets, enabling applications like speech recognition, image classification, and autonomous vehicles."
+
+
 
 
 **PROMPT 9 - CONCEPTUAL COMPARISON**
